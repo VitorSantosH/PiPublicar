@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v8.0/linux-arm64": {
       "MonitorApp/1.0.0": {
         "dependencies": {
+          "RJCP.Core.SysCompat": "0.2.0",
           "RJCP.SerialPortStream": "3.0.0",
           "System.IO.Ports": "8.0.0"
         },
@@ -45,6 +46,14 @@
         "resources": {
           "lib/netstandard2.1/de/RJCP.Core.Environment.resources.dll": {
             "locale": "de"
+          }
+        }
+      },
+      "RJCP.Core.SysCompat/0.2.0": {
+        "runtime": {
+          "lib/net8.0/RJCP.Core.SysCompat.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
           }
         }
       },
@@ -592,6 +601,13 @@
       "sha512": "sha512-3CahTglX30lGRnaZ8QCGD+viwcVezpNXbIr5XCk+YkQvHJWFkkDyURpl90kb7NAz2UGXoyWC6qGeEslkWWKThQ==",
       "path": "rjcp.core.environment/0.2.0",
       "hashPath": "rjcp.core.environment.0.2.0.nupkg.sha512"
+    },
+    "RJCP.Core.SysCompat/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FlMmlbneu3IOtN7oebY3InUbahsMcBfY7Q1+LBxBRJqJKWwT0+ALmshKpqd4ebzB2jItXF5Sgk7OWH47AiSAYQ==",
+      "path": "rjcp.core.syscompat/0.2.0",
+      "hashPath": "rjcp.core.syscompat.0.2.0.nupkg.sha512"
     },
     "RJCP.Diagnostics.Trace/0.2.0": {
       "type": "package",
